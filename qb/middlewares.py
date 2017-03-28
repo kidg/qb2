@@ -82,6 +82,7 @@ class RandomMiddleWare(object):
 
 class PrintMiddleWare(object):
     def process_request(self, request, spider):
-        print request.headers["User-Agent"]
+        pass
+        #print request.headers["User-Agent"]
 
 
