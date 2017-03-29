@@ -13,4 +13,4 @@ class QbItem(scrapy.Item):
     # name = scrapy.Field()
     author = scrapy.Field()
     content = scrapy.Field()
-
+    comments = scrapy.Field()

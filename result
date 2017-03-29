@@ -1,0 +1,167 @@
+2017-03-28 21:59:59 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: qb)
+2017-03-28 21:59:59 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'qb.spiders', 'SPIDER_MODULES': ['qb.spiders'], 'ROBOTSTXT_OBEY': True, 'BOT_NAME': 'qb'}
+2017-03-28 21:59:59 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-03-28 21:59:59 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'qb.middlewares.RandomMiddleWare',
+ 'qb.middlewares.PrintMiddleWare',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-03-28 21:59:59 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-03-28 22:00:00 [scrapy.middleware] INFO: Enabled item pipelines:
+['qb.pipelines.QbPipeline']
+2017-03-28 22:00:00 [scrapy.core.engine] INFO: Spider opened
+2017-03-28 22:00:00 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-03-28 22:00:00 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-03-28 22:00:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.qiushibaike.com/robots.txt> (referer: None)
+2017-03-28 22:00:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.qiushibaike.com/> (referer: None)
+2017-03-28 22:00:00 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.qiushibaike.com/article/118793745> (failed 1 times): 503 Service Unavailable
+2017-03-28 22:00:00 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.qiushibaike.com/article/118793840> (failed 1 times): 503 Service Unavailable
+2017-03-28 22:00:00 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.qiushibaike.com/article/118793953> (failed 1 times): 503 Service Unavailable
+2017-03-28 22:00:00 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.qiushibaike.com/article/118793251> (failed 1 times): 503 Service Unavailable
+2017-03-28 22:00:00 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.qiushibaike.com/article/118793178> (failed 1 times): 503 Service Unavailable
+2017-03-28 22:00:00 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.qiushibaike.com/article/118794037> (failed 1 times): 503 Service Unavailable
+2017-03-28 22:00:00 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.qiushibaike.com/article/118793797> (failed 1 times): 503 Service Unavailable
+2017-03-28 22:00:00 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.qiushibaike.com/article/118793743> (failed 1 times): 503 Service Unavailable
+2017-03-28 22:00:00 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.qiushibaike.com/article/118793662> (failed 1 times): 503 Service Unavailable
+2017-03-28 22:00:00 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.qiushibaike.com/article/118794016> (failed 1 times): 503 Service Unavailable
+2017-03-28 22:00:00 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.qiushibaike.com/article/118794320> (failed 1 times): 503 Service Unavailable
+2017-03-28 22:00:01 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.qiushibaike.com/article/118793915> (failed 1 times): 503 Service Unavailable
+2017-03-28 22:00:01 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.qiushibaike.com/article/118794617> (failed 1 times): 503 Service Unavailable
+2017-03-28 22:00:01 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.qiushibaike.com/article/118793695> (failed 1 times): 503 Service Unavailable
+2017-03-28 22:00:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.qiushibaike.com/article/118793452> (referer: http://www.qiushibaike.com/)
+2017-03-28 22:00:01 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.qiushibaike.com/article/118793178> (failed 2 times): 503 Service Unavailable
+2017-03-28 22:00:01 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.qiushibaike.com/article/118794037> (failed 2 times): 503 Service Unavailable
+2017-03-28 22:00:01 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.qiushibaike.com/article/118793797> (failed 2 times): 503 Service Unavailable
+2017-03-28 22:00:01 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.qiushibaike.com/article/118793743> (failed 2 times): 503 Service Unavailable
+2017-03-28 22:00:01 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.qiushibaike.com/article/118793662> (failed 2 times): 503 Service Unavailable
+2017-03-28 22:00:01 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.qiushibaike.com/article/118794016> (failed 2 times): 503 Service Unavailable
+2017-03-28 22:00:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.qiushibaike.com/article/118793653> (referer: http://www.qiushibaike.com/)
+2017-03-28 22:00:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.qiushibaike.com/article/118794580> (referer: http://www.qiushibaike.com/)
+2017-03-28 22:00:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.qiushibaike.com/article/118794740> (referer: http://www.qiushibaike.com/)
+2017-03-28 22:00:01 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.qiushibaike.com/article/118794320> (failed 2 times): 503 Service Unavailable
+2017-03-28 22:00:01 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.qiushibaike.com/article/118794617> (failed 2 times): 503 Service Unavailable
+2017-03-28 22:00:01 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.qiushibaike.com/article/118793695> (failed 2 times): 503 Service Unavailable
+2017-03-28 22:00:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.qiushibaike.com/article/118793489> (referer: http://www.qiushibaike.com/)
+2017-03-28 22:00:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.qiushibaike.com/article/118793452>
+{'author': [u'\u86cb*\u86cb\u7684\u5fe7\u4f24'],
+ 'comments': [{'comment_author': u'\n\u5c0f\u71d5\u98de1206.\n',
+               'comment_content': u'\n\u5c0f\u71d5\u98de1206.\n'},
+              {'comment_author': u'\n\u5c0f\u71d5\u98de1206.\n',
+               'comment_content': u'\n\u5c0f\u71d5\u98de1206.\n'},
+              {'comment_author': u'\n\u5c0f\u71d5\u98de1206.\n',
+               'comment_content': u'\n\u5c0f\u71d5\u98de1206.\n'},
+              {'comment_author': u'\n\u5c0f\u71d5\u98de1206.\n',
+               'comment_content': u'\n\u5c0f\u71d5\u98de1206.\n'}],
+ 'content': []}
+2017-03-28 22:00:01 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.qiushibaike.com/article/118793251> (failed 2 times): 503 Service Unavailable
+2017-03-28 22:00:01 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.qiushibaike.com/article/118793953> (failed 2 times): 503 Service Unavailable
+2017-03-28 22:00:01 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.qiushibaike.com/article/118793840> (failed 2 times): 503 Service Unavailable
+2017-03-28 22:00:01 [scrapy.downloadermiddlewares.retry] DEBUG: Gave up retrying <GET http://www.qiushibaike.com/article/118793662> (failed 3 times): 503 Service Unavailable
+2017-03-28 22:00:01 [scrapy.core.engine] DEBUG: Crawled (503) <GET http://www.qiushibaike.com/article/118793662> (referer: http://www.qiushibaike.com/)
+2017-03-28 22:00:01 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.qiushibaike.com/article/118793745> (failed 2 times): 503 Service Unavailable
+2017-03-28 22:00:01 [scrapy.downloadermiddlewares.retry] DEBUG: Gave up retrying <GET http://www.qiushibaike.com/article/118793743> (failed 3 times): 503 Service Unavailable
+2017-03-28 22:00:01 [scrapy.core.engine] DEBUG: Crawled (503) <GET http://www.qiushibaike.com/article/118793743> (referer: http://www.qiushibaike.com/)
+2017-03-28 22:00:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.qiushibaike.com/article/118793653>
+{'author': [u'\u6211\u53eb\u674e\u96e8\u6db5'],
+ 'comments': [{'comment_author': u'\n\u6e05\u98ce\u51a5\u6708\n',
+               'comment_content': u'\n\u6e05\u98ce\u51a5\u6708\n'}],
+ 'content': []}
+2017-03-28 22:00:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.qiushibaike.com/article/118794580>
+{'author': [u'\u8054\u90a6\u8c03\u67e5\u5c40\u4e1c\u65b9\u7ea2\u5206\u90e8'],
+ 'comments': [{'comment_author': u'\n\u60dc_\u7f18\n',
+               'comment_content': u'\n\u60dc_\u7f18\n'},
+              {'comment_author': u'\n\u60dc_\u7f18\n',
+               'comment_content': u'\n\u60dc_\u7f18\n'}],
+ 'content': []}
+2017-03-28 22:00:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.qiushibaike.com/article/118794740>
+{'author': [u'\u751f\u751f\u719f\u719f1209'],
+ 'comments': [{'comment_author': u'\n\u4f60\u4e0d\u662f\u4e2a\u6f14\u5458\n',
+               'comment_content': u'\n\u4f60\u4e0d\u662f\u4e2a\u6f14\u5458\n'},
+              {'comment_author': u'\n\u4f60\u4e0d\u662f\u4e2a\u6f14\u5458\n',
+               'comment_content': u'\n\u4f60\u4e0d\u662f\u4e2a\u6f14\u5458\n'}],
+ 'content': []}
+2017-03-28 22:00:01 [scrapy.downloadermiddlewares.retry] DEBUG: Gave up retrying <GET http://www.qiushibaike.com/article/118794016> (failed 3 times): 503 Service Unavailable
+2017-03-28 22:00:01 [scrapy.core.engine] DEBUG: Crawled (503) <GET http://www.qiushibaike.com/article/118794016> (referer: http://www.qiushibaike.com/)
+2017-03-28 22:00:01 [scrapy.downloadermiddlewares.retry] DEBUG: Gave up retrying <GET http://www.qiushibaike.com/article/118793797> (failed 3 times): 503 Service Unavailable
+2017-03-28 22:00:01 [scrapy.core.engine] DEBUG: Crawled (503) <GET http://www.qiushibaike.com/article/118793797> (referer: http://www.qiushibaike.com/)
+2017-03-28 22:00:01 [scrapy.downloadermiddlewares.retry] DEBUG: Gave up retrying <GET http://www.qiushibaike.com/article/118794037> (failed 3 times): 503 Service Unavailable
+2017-03-28 22:00:01 [scrapy.core.engine] DEBUG: Crawled (503) <GET http://www.qiushibaike.com/article/118794037> (referer: http://www.qiushibaike.com/)
+2017-03-28 22:00:01 [scrapy.downloadermiddlewares.retry] DEBUG: Gave up retrying <GET http://www.qiushibaike.com/article/118793178> (failed 3 times): 503 Service Unavailable
+2017-03-28 22:00:01 [scrapy.core.engine] DEBUG: Crawled (503) <GET http://www.qiushibaike.com/article/118793178> (referer: http://www.qiushibaike.com/)
+2017-03-28 22:00:01 [scrapy.downloadermiddlewares.retry] DEBUG: Gave up retrying <GET http://www.qiushibaike.com/article/118794617> (failed 3 times): 503 Service Unavailable
+2017-03-28 22:00:01 [scrapy.core.engine] DEBUG: Crawled (503) <GET http://www.qiushibaike.com/article/118794617> (referer: http://www.qiushibaike.com/)
+2017-03-28 22:00:01 [scrapy.downloadermiddlewares.retry] DEBUG: Gave up retrying <GET http://www.qiushibaike.com/article/118794320> (failed 3 times): 503 Service Unavailable
+2017-03-28 22:00:01 [scrapy.core.engine] DEBUG: Crawled (503) <GET http://www.qiushibaike.com/article/118794320> (referer: http://www.qiushibaike.com/)
+2017-03-28 22:00:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.qiushibaike.com/article/118793613> (referer: http://www.qiushibaike.com/)
+2017-03-28 22:00:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.qiushibaike.com/article/118793489>
+{'author': [u'\u6597\u58ebNO1'],
+ 'comments': [{'comment_author': u'\n\u4f60\u4f1a\u67d4\u9053\u5417\n',
+               'comment_content': u'\n\u4f60\u4f1a\u67d4\u9053\u5417\n'}],
+ 'content': []}
+2017-03-28 22:00:01 [scrapy.downloadermiddlewares.retry] DEBUG: Gave up retrying <GET http://www.qiushibaike.com/article/118793695> (failed 3 times): 503 Service Unavailable
+2017-03-28 22:00:01 [scrapy.core.engine] DEBUG: Crawled (503) <GET http://www.qiushibaike.com/article/118793695> (referer: http://www.qiushibaike.com/)
+2017-03-28 22:00:01 [scrapy.downloadermiddlewares.retry] DEBUG: Gave up retrying <GET http://www.qiushibaike.com/article/118793840> (failed 3 times): 503 Service Unavailable
+2017-03-28 22:00:01 [scrapy.core.engine] DEBUG: Crawled (503) <GET http://www.qiushibaike.com/article/118793840> (referer: http://www.qiushibaike.com/)
+2017-03-28 22:00:01 [scrapy.downloadermiddlewares.retry] DEBUG: Gave up retrying <GET http://www.qiushibaike.com/article/118793953> (failed 3 times): 503 Service Unavailable
+2017-03-28 22:00:01 [scrapy.core.engine] DEBUG: Crawled (503) <GET http://www.qiushibaike.com/article/118793953> (referer: http://www.qiushibaike.com/)
+2017-03-28 22:00:01 [scrapy.downloadermiddlewares.retry] DEBUG: Gave up retrying <GET http://www.qiushibaike.com/article/118793745> (failed 3 times): 503 Service Unavailable
+2017-03-28 22:00:01 [scrapy.core.engine] DEBUG: Crawled (503) <GET http://www.qiushibaike.com/article/118793745> (referer: http://www.qiushibaike.com/)
+2017-03-28 22:00:01 [scrapy.downloadermiddlewares.retry] DEBUG: Gave up retrying <GET http://www.qiushibaike.com/article/118793251> (failed 3 times): 503 Service Unavailable
+2017-03-28 22:00:01 [scrapy.core.engine] DEBUG: Crawled (503) <GET http://www.qiushibaike.com/article/118793251> (referer: http://www.qiushibaike.com/)
+2017-03-28 22:00:01 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <503 http://www.qiushibaike.com/article/118793662>: HTTP status code is not handled or not allowed
+2017-03-28 22:00:01 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <503 http://www.qiushibaike.com/article/118793743>: HTTP status code is not handled or not allowed
+2017-03-28 22:00:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.qiushibaike.com/article/118793915> (referer: http://www.qiushibaike.com/)
+2017-03-28 22:00:01 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <503 http://www.qiushibaike.com/article/118794016>: HTTP status code is not handled or not allowed
+2017-03-28 22:00:01 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <503 http://www.qiushibaike.com/article/118793797>: HTTP status code is not handled or not allowed
+2017-03-28 22:00:01 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <503 http://www.qiushibaike.com/article/118794037>: HTTP status code is not handled or not allowed
+2017-03-28 22:00:01 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <503 http://www.qiushibaike.com/article/118793178>: HTTP status code is not handled or not allowed
+2017-03-28 22:00:01 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <503 http://www.qiushibaike.com/article/118794617>: HTTP status code is not handled or not allowed
+2017-03-28 22:00:01 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <503 http://www.qiushibaike.com/article/118794320>: HTTP status code is not handled or not allowed
+2017-03-28 22:00:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.qiushibaike.com/article/118793613>
+{'author': [u'\u4f60\u6709\u903c\u6211\uff1f'], 'comments': [], 'content': []}
+2017-03-28 22:00:01 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <503 http://www.qiushibaike.com/article/118793695>: HTTP status code is not handled or not allowed
+2017-03-28 22:00:01 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <503 http://www.qiushibaike.com/article/118793840>: HTTP status code is not handled or not allowed
+2017-03-28 22:00:01 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <503 http://www.qiushibaike.com/article/118793953>: HTTP status code is not handled or not allowed
+2017-03-28 22:00:01 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <503 http://www.qiushibaike.com/article/118793745>: HTTP status code is not handled or not allowed
+2017-03-28 22:00:01 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <503 http://www.qiushibaike.com/article/118793251>: HTTP status code is not handled or not allowed
+2017-03-28 22:00:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.qiushibaike.com/article/118793915>
+{'author': [u'\u54c7\u585e\uff5e\u571f\u8c46'], 'comments': [], 'content': []}
+2017-03-28 22:00:01 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-03-28 22:00:01 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 28899,
+ 'downloader/request_count': 49,
+ 'downloader/request_method_count/GET': 49,
+ 'downloader/response_bytes': 123372,
+ 'downloader/response_count': 49,
+ 'downloader/response_status_count/200': 9,
+ 'downloader/response_status_count/503': 40,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 3, 28, 14, 0, 1, 487609),
+ 'item_scraped_count': 7,
+ 'log_count/DEBUG': 70,
+ 'log_count/INFO': 20,
+ 'request_depth_max': 1,
+ 'response_received_count': 22,
+ 'scheduler/dequeued': 48,
+ 'scheduler/dequeued/memory': 48,
+ 'scheduler/enqueued': 48,
+ 'scheduler/enqueued/memory': 48,
+ 'start_time': datetime.datetime(2017, 3, 28, 14, 0, 0, 65209)}
+2017-03-28 22:00:01 [scrapy.core.engine] INFO: Spider closed (finished)

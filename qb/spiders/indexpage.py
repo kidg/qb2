@@ -4,7 +4,7 @@ import scrapy
 from qb.items import QbItem
 
 class QiuBaiSpider(scrapy.Spider):
-    name ="qb"
+    name ="qb222"
     start_urls = ["http://www.qiushibaike.com/", ]
 
     def parse(self, response):
